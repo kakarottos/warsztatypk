@@ -1,0 +1,18 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/Rafał Niezgoda/Desktop/warsztaty/warsztatypk/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/Programowanie/MinGW/bin/mingw32-make.exe" "cmTC_230d7/fast"
+D:/Programowanie/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_230d7.dir\build.make CMakeFiles/cmTC_230d7.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Rafa│ Niezgoda/Desktop/warsztaty/warsztatypk/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_230d7.dir/testCCompiler.c.obj
+D:\Programowanie\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_230d7.dir\testCCompiler.c.obj   -c "C:\Users\Rafa┼é Niezgoda\Desktop\warsztaty\warsztatypk\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c"
+gcc.exe: error: C:\Users\Rafa+Ú Niezgoda\Desktop\warsztaty\warsztatypk\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+gcc.exe: fatal error: no input files
+compilation terminated.
+CMakeFiles\cmTC_230d7.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_230d7.dir/testCCompiler.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_230d7.dir/testCCompiler.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Rafa│ Niezgoda/Desktop/warsztaty/warsztatypk/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_230d7/fast' failed
+mingw32-make.exe: *** [cmTC_230d7/fast] Error 2
+
+
